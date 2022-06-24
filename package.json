@@ -1,0 +1,20 @@
+{
+    "name": "apiventas",
+    "version": "1.0.0",
+    "description": "aplicacion web",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "Pablo hr",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.2",
+        "helmet": "^5.0.1",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15"
+    }
+}
